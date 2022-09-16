@@ -9,7 +9,7 @@ const Footers = () => {
         <Footer bgDark={true}>
             <div className='w-full' style={{ backgroundColor: "#1F2937" }}>
                 <div className="grid md:w-11/12 md:mx-auto grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-                    <di>
+                    <div>
                         <p className='text-white mb-5'>
                             Company
                         </p>
@@ -35,7 +35,7 @@ const Footers = () => {
                                 </span>
                             </Footer.Link>
                         </Footer.LinkGroup>
-                    </di>
+                    </div>
                     <div>
                         <p className='text-white mb-5'>
                             HELP CENTER
@@ -117,7 +117,7 @@ const Footers = () => {
                     <Footer.Copyright
                         href="https://www.apple.com/"
                         target='_blank'
-                        by="MackBook_Review™"
+                        by="MackBook_Review Inc. All rights reserved™"
                         year={2022}
                     />
                     <div className="mt-4 flex sm:mt-0 sm:justify-center">

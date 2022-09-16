@@ -33,7 +33,7 @@ const Header = () => {
                             </span>
                         </Navbar.Brand>
                         <div className="flex md:order-2">
-                            <button className={ bgColorChange ? "md:w-18 lg:w-32 w-28 px-3 text-slate-800 py-2 rounded text-sm bg-white font-bold" : "md:w-18 lg:w-32 w-24 px-3 text-white py-2 rounded text-sm bg-slate-800"}>
+                            <button className={bgColorChange ? "md:w-18 lg:w-32 w-28 px-3 text-slate-800 py-2 rounded text-sm bg-white font-bold" : "md:w-18 lg:w-32 w-24 px-3 text-white py-2 rounded text-sm bg-slate-800"}>
                                 Get started
                             </button>
                             <Navbar.Toggle />
