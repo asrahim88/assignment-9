@@ -14,7 +14,7 @@ const Header = () => {
     }
     window.addEventListener('scroll', changeBgNavbar);
     return (
-        <div className='sticky top-0 w-full'>
+        <div className='sticky top-0 w-full z-50'>
             <div className={bgColorChange ? 'bg-gray-800 text-white' : "bg-transparent text-gray-700"}>
                 <div className='md:w-11/12 md:mx-auto'>
                     <Navbar
@@ -24,7 +24,7 @@ const Header = () => {
                     >
                         <Navbar.Brand href="https://www.apple.com/mac/">
                             <img
-                                src="/logo.png"
+                                src="/photos/logo.png"
                                 className="mr-3 h-6 sm:h-9"
                                 alt="Flowbite Logo"
                             />

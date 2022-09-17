@@ -1,6 +1,5 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import './App.css';
 import About from './Components/About/About';
 import Blogs from './Components/Blogs/Blogs';
 // import BuiltInApps from './Components/BultInApps/BuiltInApps';
