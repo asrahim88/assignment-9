@@ -3,7 +3,6 @@ import { IoChevronForwardOutline } from "react-icons/io5";
 import { TbTruckDelivery } from "react-icons/tb";
 import { BiDollarCircle } from "react-icons/bi";
 import { RiWechatLine } from "react-icons/ri";
-import { Link, Outlet } from 'react-router-dom';
 import LogicPro from '../LogicPro/LogicPro';
 import MainStage from '../MainStage/MainStage';
 import Safari from '../Safari/Safari';
@@ -14,6 +13,9 @@ import Numbers from '../Numbers/Numbers';
 import KeyNotes from '../KeyNotes/KeyNotes';
 import { useState } from 'react';
 import IMovie from '../IMovie/IMovie';
+import FinalCutPro from '../FinalCutPro/FinalCutPro';
+import Motion from '../Motion/Motion';
+import Compressor from '../Compressor/Compressor';
 
 const Home = () => {
 
@@ -36,6 +38,10 @@ const Home = () => {
     // Pro apps functionality
     const main_stage = <MainStage></MainStage>;
     const logic_pro = <LogicPro></LogicPro>;
+    const finalCutPro = <FinalCutPro></FinalCutPro>;
+    const motion = <Motion></Motion>;
+    const compressor = <Compressor></Compressor>
+
     const [proApps, setProApps] = useState(logic_pro);
     const handleProApps = (comp) => {
         setProApps(comp)
@@ -43,6 +49,7 @@ const Home = () => {
 
     return (
         <div className='md:w-11/12 md:mx-auto'>
+
             {/* apple work */}
             <div style={{ backgroundImage: `url("/photos/bg-1.jpg")` }} className='h-[500px] w-full flex  items-center bg-no-repeat bg-center md:bg-top bg-cover'>
                 <div className='w-full text-center text-white font-bold'>
@@ -52,6 +59,7 @@ const Home = () => {
                     <p className='mt-1 hover:underline text-lg flex justify-center items-center'><a href="#" target='_blank'>See why Mac means business</a> <IoChevronForwardOutline></IoChevronForwardOutline></p>
                 </div>
             </div>
+
             {/* shop for college */}
             <div className='bg-gray-100 mt-5'>
                 <div className='md:w-5/6 md:mx-auto grid grid-cols-1 md:grid-cols-2 gap-4 h-[500px]'>
@@ -69,6 +77,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             {/* accessories */}
             <div className='gap-8 mt-8 mb-5 grid grid-cols-1 md:grid-cols-2'>
                 <div className='bg-gray-100'>
@@ -106,6 +115,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             {/* delivery payment help */}
             <div className='grid grid-cols-1 md:grid-cols-3'>
                 <div className='flex items-center justify-center md:h-[350px] h-[250px]'>
@@ -152,6 +162,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
             {/* BuiltInApps */}
             <div className='bg-[#FBFBFD] pt-10'>
                 <div className='flex justify-center items-center text-slate-800'>
@@ -230,8 +241,9 @@ const Home = () => {
                 </div>
 
             </div>
+
             {/* proApps */}
-            <div>
+            <div className='pt-20 bg-[#FBFBFD] mt-16 md:pb-20'>
                 <div className='flex justify-center items-center text-slate-800'>
                     <div className='text-lg font-semibold'>
                         <h1 className='text-center font-bold text-6xl'>Pro Apps</h1>
@@ -245,7 +257,7 @@ const Home = () => {
                 </div>
                 <div>
                     <ul className='grid grid-cols-3 md:flex space-x-1 md:space-x-14 justify-center border-b-2 mt-10'>
-                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleBuiltInApps(safari)}>
+                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleProApps(logic_pro)}>
                             <div className='flex justify-center'>
                                 <img src="/photos/logicProIcon.jpg" alt="" srcSet="" />
                             </div>
@@ -253,7 +265,7 @@ const Home = () => {
                                 Logic Pro
                             </span>
                         </li>
-                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleBuiltInApps(photos)}>
+                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleProApps(main_stage)}>
                             <div className='flex justify-center'>
                                 <img src="/photos/mainStageIcon.jpg" alt="" srcSet="" />
                             </div>
@@ -261,7 +273,7 @@ const Home = () => {
                                 MainStage
                             </span>
                         </li>
-                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleBuiltInApps(iMovie)}>
+                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleProApps(finalCutPro)}>
                             <div className='flex justify-center'>
                                 <img src="/photos/finalCutProIcon.jpg" alt="" srcSet="" />
                             </div>
@@ -269,7 +281,7 @@ const Home = () => {
                                 Final Cut Pro
                             </span>
                         </li>
-                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleBuiltInApps(garageBand)}>
+                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleProApps(motion)}>
                             <div className='flex justify-center'>
                                 <img src="/photos/motionIcon.jpg" alt="" srcSet="" />
                             </div>
@@ -277,7 +289,7 @@ const Home = () => {
                                 Motion
                             </span>
                         </li>
-                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleBuiltInApps(pages)}>
+                        <li className='hover:underline block text-center cursor-pointer pt-4 md:pt-0' onClick={() => handleProApps(compressor)}>
                             <div className='flex justify-center'>
                                 <img src="/photos/compressorIcon.jpg" alt="" srcSet="" />
                             </div>
@@ -287,9 +299,14 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
-                <div>
+                <div className='pt-5 pb-5'>
                     {proApps}
                 </div>
+            </div>
+
+            {/* Customers Reviews */}
+            <div>
+                
             </div>
         </div>
     );
