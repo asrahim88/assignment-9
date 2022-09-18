@@ -16,6 +16,9 @@ import IMovie from '../IMovie/IMovie';
 import FinalCutPro from '../FinalCutPro/FinalCutPro';
 import Motion from '../Motion/Motion';
 import Compressor from '../Compressor/Compressor';
+import { Button, Carousel } from 'flowbite-react';
+import Reviews from '../../Hooks/reviews';
+import { useEffect } from 'react';
 
 const Home = () => {
 
@@ -47,9 +50,20 @@ const Home = () => {
         setProApps(comp)
     };
 
+    // Reviews
+    const [review, setReview] = Reviews();
+    // const [data, setData] = useState([]);
+    const testData = [
+        { name: 'abul', age: 10 },
+        { name: 'babul', age: 15 },
+        { name: 'cabul', age: 25 },
+        { name: 'dabul', age: 65 },
+        { name: 'fabul', age: 85 },
+    ];
+    const shortRating = review.slice(0, 3);
     return (
         <div className='md:w-11/12 md:mx-auto'>
-
+            {shortRating.length}
             {/* apple work */}
             <div style={{ backgroundImage: `url("/photos/bg-1.jpg")` }} className='h-[500px] w-full flex  items-center bg-no-repeat bg-center md:bg-top bg-cover'>
                 <div className='w-full text-center text-white font-bold'>
@@ -305,8 +319,41 @@ const Home = () => {
             </div>
 
             {/* Customers Reviews */}
-            <div>
-                
+            <div className='mt-16 '>
+                <div className='flex justify-center'>
+                    <h1 className='md:text-3xl lg:text-6xl text-2xl text-slate-800 underline-offset-8 underline mb-10 pt-10'>Customers Reviews</h1>
+                </div>
+                <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
+                    <Carousel>
+                        {
+                            shortRating.map(rating => <div
+                                className='flex h-full items-center justify-center bg-gray-400 dark:bg-gray-700 dark:text-white rounded-none'
+                                key={rating.id}
+                            >
+
+                                <div className='flex justify-center items-center w-9/12 mx-auto'>
+                                    <div>
+                                        <div className='flex justify-center'>
+                                            <div className=' w-20 h-20 rounded-full'>
+                                                <img src={rating.img} alt="userPic" className='rounded-full w-full h-full' />
+                                            </div>
+                                        </div>
+                                        <h1 className='text-center'>{rating.name}</h1>
+                                        <p className='text-center'>Rating: {rating.rating}</p>
+                                        <p>" {rating.review} "</p>
+                                    </div>
+                                </div>
+                            </div>)
+                        }
+                    </Carousel>
+
+                </div>
+                <div className='flex justify-center pt-5 pb-5'>
+                    <Button style={{ backgroundColor: "rgb(31,41,55)" }}
+                    >
+                        See All Reviews
+                    </Button>
+                </div>
             </div>
         </div>
     );
