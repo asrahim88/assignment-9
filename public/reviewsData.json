@@ -2,43 +2,43 @@
     {
         "id": 101,
         "name": "Ehsan Fayez",
-        "rating": 3.4, 
-        "review": "The 2022 hop-up of the 13-inch MacBook Pro (starting at $1,299, $1,899 as tested) brings a big silicon deal for power users to the stalwart MacBook: It's the first to hit the market with Apple's new M2 processor. In classic Apple fashion, it’s a stylish and capable laptop that can hang with the best in the ultraportable class. But the design is, in a way, a safe and conservative one, with few marked changes apart from the chip update.",
+        "rating": 3.5, 
+        "review": "The 2022 hop-up of the 13-inch MacBook Pro (starting at $1,299, $1,899 as tested) brings a big silicon deal for power users to the stalwart MacBook: It's the first to hit the market with Apple's new M2 processor. In classic Apple fashion, it’s a stylish and capable laptop that can hang with the best in the ultraportable class.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/307447679_184263867405455_1474542678360107882_n.jpg?stp=dst-jpg_p843x403&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=gJe8lth6rsUAX8IzWkZ&_nc_ht=scontent.fdac135-1.fna&oh=00_AT-Gnbc3qTRFHDFbKBuIc3JAGxSYUZTvcN1NHSpvNW-ZGg&oe=632B3847"
       },
     {
         "id": 102,
         "name": "Iyad Jamil",
         "rating": 5,
-        "review": " Apple MackBooks with the first manifestation we've seen of the second-generation Apple Silicon-based processor line (the plain 'M2,' in contrast to previous-generation variants like the 'M1 Max'), the MacBook Pro 13-inch is marked as much by what doesn’t change as what does. The new CPU may offer enhanced performance, but the rest of the MacBook Pro is almost exactly as it was when Apple introduced the design six years ago, even as the 14-inch and 16-inch models have gotten updated styling and features.",
+        "review": " Apple MackBooks with the first manifestation we've seen of the second-generation Apple Silicon-based processor line (the plain 'M2,' in contrast to previous-generation variants like the 'M1 Max'), the MacBook Pro 13-inch is marked as much by what doesn’t change as what does. The new CPU may offer enhanced performance.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/307151948_184263930738782_7102508900323469790_n.jpg?stp=dst-jpg_p843x403&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=ZSXJzzxgokYAX9m743E&_nc_ht=scontent.fdac135-1.fna&oh=00_AT_LTxV5_Mx1g3VEJnYUOuPEPCWzqRl4SNXhYDl-4Fxqdg&oe=632C556C"
       },
     {
         "id": 103,
         "name": "Qasim Marwan",
         "rating": 4,
-        "review": "Now, of course, Apple offers several configurations of the new 13-inch MacBook Pro. Our own review unit was stepped up from the base model, outfitted with more memory (16GB) and storage (1TB), and decked out in Space Gray. This configuration sells for $1,899. The base model is a bit more modest, with the same Apple M2 eight-core processor and 10 GPU cores, but only 8GB of RAM and a 256GB SSD for storage. The price for that starter version is $1,299.",
+        "review": "Now, of course, Apple offers several configurations of the new 13-inch MacBook Pro. Our own review unit was stepped up from the base model, outfitted with more memory (16GB) and storage (1TB), and decked out in Space Gray. This configuration sells for $1,899. The base model is a bit more modest, with the same Apple M2 eight-core.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/306941711_184263980738777_8794941186991077558_n.jpg?stp=dst-jpg_p843x403&_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=9TNrczZtxhAAX96byUL&_nc_ht=scontent.fdac135-1.fna&oh=00_AT_RTX4G1JVrhb_UecMg4cT82lYdWYhQOgoN8brKIzNaOg&oe=632AEB40"
       },
     {
         "id": 104,
         "name": "Salman Sami",
         "rating": 4.5,
-        "review": "If you really want to splash out on the 13-inch Pro, the best configuration ($2,499) tops out at 24GB of memory and a 2TB drive. Whether that’s worth the extra spend pivots on your memory and storage needs. If you know you'll be working with memory-intensive apps or need the maximum possible local storage for media work, the additional cost may be worth it. But for everyone else, it's probably an extravagance",
+        "review": "If you really want to splash out on the 13-inch Pro, the best configuration ($2,499) tops out at 24GB of memory and a 2TB drive. Whether that’s worth the extra spend pivots on your memory and storage needs. If you know you'll be working with memory-intensive apps or need the maximum possible local storage for media work.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/307016478_184264054072103_1279842355799778539_n.jpg?stp=dst-jpg_p843x403&_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=LuPQfX8iqv4AX-Mj_nw&_nc_ht=scontent.fdac135-1.fna&oh=00_AT-uuKD1aJiYRuuz5wEseH1oJY1d8reb2RH-1hR4ZA9IWg&oe=632B77B9"
       },
     {
         "id": 105,
         "name": "Wafi Mansour",
         "rating": 4,
-        "review": "Comparing Apple’s macOS laptops to Intel-powered Windows ones isn’t entirely straightforward, as the latest nuances of the long-running Mac and PC bifurcation makes finding meaningfully overlapping tests a bit of a challenge. Apps that run just fine on scads of Windows machines may not have native support on Apple Silicon, and Apple’s family of supported apps doesn’t always include a Windows equivalent.",
+        "review": "Comparing Apple’s macOS laptops to Intel-powered Windows ones isn’t entirely straightforward, as the latest nuances of the long-running Mac and PC bifurcation makes finding meaningfully overlapping tests a bit of a challenge. Apps that run just fine on scads of Windows machines may not have native support on Apple Silicon.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/306976406_184264157405426_2251485973676550730_n.jpg?stp=dst-jpg_s960x960&_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=ksB_XSzOI70AX8vKsSX&_nc_ht=scontent.fdac135-1.fna&oh=00_AT_BhLa2VsbeOmy9l6bX70ZOT0KGDDwjc49Wn_sLs5vgJQ&oe=632BA5CE"
       },
     {
         "id": 106,
         "name": "Adnan Saqi",
         "rating": 5,
-        "review": "While the cross-platform tests aren’t as numerous as we’d like, we still have plenty to compare. Video transcoding in Handbrake is one such test, timing how long it takes a machine to convert a standard 4K clip into a smaller 1080p version.We also use Cinebench R23, which uses Maxon’s Cinema 4D engine to render a complex scene, to test multi-core and multi-threaded processing.",
+        "review": "While the cross-platform tests aren’t as numerous as we’d like, we still have plenty to compare. Video transcoding in Handbrake is one such test, timing how long it takes a machine to convert a standard 4K clip into a smaller 1080p version.We also use Cinebench R23, which uses Maxon’s Cinema 4D engine to render a complex scene.",
         "img": "https://scontent.fdac135-1.fna.fbcdn.net/v/t39.30808-6/306976556_184264097405432_952996042361475561_n.jpg?stp=dst-jpg_p843x403&_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=vG1DzjJp7hYAX8V3M_j&_nc_ht=scontent.fdac135-1.fna&oh=00_AT_t0e1l0WlhAg-phE02KCEqa3ZeHhtZczRHoiNEy6ckGw&oe=632C5B33"
       }
 ]
