@@ -312,7 +312,7 @@ const Home = () => {
             {/* Customers Reviews */}
             <div>
                 <div className='flex justify-center'>
-                    <h1 className='md:text-3xl lg:text-6xl text-2xl text-slate-800 underline-offset-8 underline mb-10 pt-10'>Customers Reviews</h1>
+                    <h1 className='md:text-3xl lg:text-6xl text-2xl text-slate-800 underline-offset-8 mb-10 pt-10'> <span className='underline'>Customers Reviews</span> <span>({review.length})</span></h1>
                 </div>
                 <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
                     <Carousel>
@@ -324,7 +324,7 @@ const Home = () => {
                                 <div className='flex justify-center items-center w-9/12 mx-auto'>
                                     <div>
                                         <div className='flex justify-center'>
-                                            <div className=' w-20 h-20 rounded-full'>
+                                            <div className=' w-20 h-20 rounded-full border-4 border-white'>
                                                 <img src={rating.img} alt="userPic" className='rounded-full w-full h-full' />
                                             </div>
                                         </div>

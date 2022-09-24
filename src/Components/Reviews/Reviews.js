@@ -6,7 +6,7 @@ const Reviews = () => {
     return (
         <div className='bg-gray-200'>
             <div className='w-10/12 mx-auto pb-10'>
-                <h1 className='text-center md:text-5xl text-2xl lg:text-6xl font-bold md:pt-24 pt-10 text-slate-800 pb-10'>What Our Customers Say!!!</h1>
+                <h1 className='text-center md:text-5xl text-2xl lg:text-6xl font-bold md:pt-24 pt-10 text-slate-800 pb-20'>What Our Customers Say!!!</h1>
                 <div className='w-full grid lg:grid-cols-4 grid-cols-1 md:grid-cols-3 gap-4 bg-gray-200'>
                     {
                         review.map(rating => <div key={rating.id}>
