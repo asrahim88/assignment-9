@@ -312,7 +312,7 @@ const Home = () => {
             {/* Customers Reviews */}
             <div>
                 <div className='flex justify-center'>
-                    <h1 className='md:text-3xl lg:text-6xl text-2xl text-slate-800 underline-offset-8 mb-10 pt-10'> <span className='underline'>Customers Reviews</span> <span>({review.length})</span></h1>
+                    <h1 className='md:text-3xl lg:text-6xl text-2xl text-slate-800 underline-offset-8 mb-10 pt-10'> <span className='underline'>Customers Reviews</span> <span>({shortRating.length})</span></h1>
                 </div>
                 <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
                     <Carousel>
