@@ -2,7 +2,6 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, AreaChart, Area, ResponsiveContainer, Legend, ComposedChart, Bar, PieChart, Pie } from 'recharts';
-import './Dashboard.css'
 import Roll from 'react-reveal/Roll';
 import LightSpeed from 'react-reveal/LightSpeed';
 
@@ -14,7 +13,8 @@ const Dashboard = () => {
             .then(data => setChartData(data));
     }, []);
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:w-10/12 w-full md:mx-auto md:place-items-center px-10 py-20 md:px-0 ' style={{ height: "100%" }}>
+        <div style={{ backgroundImage: `url("/photos/5570173.jpg")`}} className = "relative bg-cover bg-no-repeat bg-center">
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-4 md:w-10/12 w-full md:mx-auto md:place-items-center px-10 py-20 md:px-0' style={{ height: "100%", }}>
             <Roll left cascade>
                 <div style={{ position: 'relative', width: "100%", height: "100%" }}>
                     <h1 className='text-xl md:text-2xl lg:text-4xl text-[#8884d8] font-semibold text-center py-5'>Month Wise Sell</h1>
@@ -94,6 +94,7 @@ const Dashboard = () => {
                     </ResponsiveContainer>
                 </div>
             </LightSpeed>
+        </div>
         </div>
     );
 };

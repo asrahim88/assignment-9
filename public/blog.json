@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "heading": "web development",
+        "title": "What is the context api in react?",
+        "blogImg": "https://www.loginradius.com/blog/static/157af7ff069ab273224b4718433d9790/03979/title-image.png",
+        "blog": "কন্টেক্সট এ পি আইটা (context api) হলো রিয়েক্টের খুবই গুরুত্বপূর্ণ একটা জিনিস। যার মাধ্যমে প্যারেন্ট কম্পোনেন্ট (parent component) থেকে যে কোন চাইল্ড কম্পোনেন্ট এ সরাসরি ডাটা পাঠানো যায় বা ডাটা পাঠানোর জন্যই ব্যবাহ করা হয়। আমরা যখন প্যারেন্ট কম্পোনেন্ট থেকে চাইল্ড কম্পোনেন্ট এর ভেতরে ন্যাস্টেড চাইল্ডে ও ডাটা পাঠাতে চাই সেই ক্ষেত্রে আমরা প্রপ্স ড্রিলিং (props drilling) এর মাধ্যমে ও আমাদের ডাটা পাঠাতে পারি। তবে এটি কষ্ট সাধ্য বা সঠিক উপয়া না। কারণ ইমিডিয়েট চাইল্ড কম্পোনেন্ট এ প্রপ্স ড্রিলিং এর মাধ্যমে ডাটা পাঠালে সেটা ঠিক আছে। বাট যদি সেই চাইল্ড কম্পোনেন্ট এর ভেতর যদি ন্যাস্টেড চাইল্ড কম্পোনেন্ট থাকে সেই ক্ষেত্রে সরাসরি আমরা কন্টেক্সট এ পি আই দিয়ে ডাটা পেরণ করতে পারবো। এর জন্য আমাদের ৩ টা কাজ করতে হবে। প্রথম কাজঃ একটা কন্টেক্সট বানাতে হবে (Create the context)। দ্বিতীয়তঃ সেই কন্টেক্সট এর ভ্যালু পাঠাতে হবে বা দিতে হবে (Provide the context value) । তৃতীয়তঃ যেই কম্পোনেন্ট এ আমরা ডাটা পাঠাতে চাচ্ছি সেই কম্পোনেন্ট থেকে আমাদের ডাটা রিসিভ করতে হবে( Consume the context Value) ।",
+        "date": "05/05/2022"
+    },
+    {
+        "id": 2,
+        "heading": "web development",
+        "title": "Whats the Semantic tag",
+        "blogImg": "https://techgeekbuzz.com/media/tutorial_images/HTML-Semantic-Elements.jpg",
+        "blog": "Semantic tag টা হলো এমন একটি ট্যাগ যার একটা অর্থ থাকে। অর্থাত যাকে মিনিংফুল ট্যাগ বলা হয় বা যেই ট্যাগটা অর্থ বহন করে তাকে সিমান্টিক ট্যাগ বলা হয়। আমরা যখন কোন একটা ওয়েব সাইট বানাতে যাই সেই ক্ষেত্রে আগে আমাদেরকে সেই ওয়েব সাইটের স্ট্রাকচার দাঁড় করানোর প্রয়োজন হয়। আর এই স্ট্রাকচার দাঁড় করানোর জন্য বিভিন্ন রকমের ট্যাগ ব্যবহার করা হয়। যার কিছু অর্থ বহন করে আর কিছু অর্থ বহন করেনা। যেমনঃ <article></article> এই ট্যাগটা দিয়ে নির্দিষ্ট একটা অর্থ বহন করছে। তাই এটি সিমান্টিক ট্যাগ। আবার <p></p> এই ট্যাগটা কোন অর্থ বহন করছেনা তাই এটি সিমান্টিক ট্যাগ না। ",
+        "date": "15/05/2022"
+    },
+    {
+        "id": 3,
+        "heading": "web development",
+        "title": "Inline Vs Inline-Block Vs Block Elements",
+        "blogImg": "https://cdn.educba.com/academy/wp-content/uploads/2020/02/HTML-Inline-Block.jpg",
+        "blog": " Inline-elements হলো এমন এক ধরনের ইলিমেন্টস। যার শুরুটা নতুন লাইন থেকে হয় না। যেটি তার প্রয়োজনীয় জায়গা দখল করে। তবে তার প্রস্থ বা উচ্চতা ( width and height ) সেট করা যায় না। Inline-block-elements হলো এমন একটি ইলিমেন্টস। যার শুরুটা নতুন লাইন থেকে শুরু না হলে ও তার প্রয়োজনীয় জায়গা দখল করার পাশাপাশি তাতে প্রস্থ এবং উচ্চতা (width and height) সেট করা যায়। Block-elements হলো এমন একটি ইলিমেন্টস, যার শুরুটা নতুন লাইন থেকে শুরু হয়। এবং সে পুরো প্রয়োজনী জায়গা ছাড়া ও পুরো জায়গা দখল করে ফেলে বা ব্লক করে ফেলে।",
+        "date": "17/05/2022"
+    }, 
+    {
+        "id": 4,
+        "heading": "Market Research",
+        "title": "How IT Companies Use Web Technologies: Survey Winner Announcement",
+        "blogImg": "https://rest.techbehemoths.com/storage/images/posts/366/main-survey-winners-62e7bd9c13696.webp",
+        "blog": "It's already a tradition at TechBehemoths to award companies that took part in our surveys. The How IT Companies Use Web Technologies survey was conducted among 912 companies across 49 countries. Responses were collected between July 12-24, 2022  and only 114 companies agreed to take part in the draw for the big prize. For a fair outcome, TechBehemoths used the random.org platform in a single shot. According to the results, tagDiv from Alba Iulia, Romania is the winner of the draw.The prize for participating in this survey is a $100 Amazon Voucher. Would you like to read more about this? Researching analyzing, and writing insightful stuff is what I do for a long time now at Mobiteam. At TechBehemoths, I put all my experience and knowledge work for IT companies and businesses and help them reach each other.",
+        "date": "18/05/2022"
+    },
+    {
+        "id": 5,
+        "heading": "Market Research",
+        "title": "How to Boost Ecommerce Sales with Microsoft Advertising",
+        "blogImg": "https://rest.techbehemoths.com/storage/images/posts/main/main-how-boost-sales-microsoft-advertising-62c7dfd29e384.webp",
+        "blog": " Do you own an eCommerce business? Are your sales not satisfactory even after adopting obvious and excellent marketing strategies like running Google Shopping Ads? Then you should think hard about what you are missing. Running a Google Shopping Ad might feel like the ultimate successful thing to do for your eCommerce business, but if you want to cover all your bases and maximize your sales, you must use Microsoft Advertising. Now, you might be wondering how to do that. Well, that’s what we will be talking about today.Our today’s blog will guide you through some extremely effective eCommerce Microsoft Advertising strategies that are, in fact, very easy to follow. But first, let’s get a clearer idea about Microsoft Advertising, shall we?  ",
+        "date": "19/07/2022"
+    },
+    {
+        "id": 6,
+        "heading": "Market Research",
+        "title": "Why We Still Need Effective Leadership for Remote Working",
+        "blogImg": "https://rest.techbehemoths.com/storage/images/posts/main/main-leadership-62dfae44cee9e.webp",
+        "blog": " For many companies, their office hasn’t been the same since 2020, with remote working offering employees greater freedom than they once had. Staff can stay at home all week and avoid the commute, or with hybrid working patterns they can mix and match to suit their schedules. All of a sudden, it now feels like work has become a lot more casual and there are fewer boundaries than there once were. From jumping onto a video conference call in a t-shirt or hoodie to offices often running at about half their capacity, things are productive yet flexible. But just because the office environment seems less structured doesn’t mean companies should lose touch with effective leadership. We still need effective leadership and it’s arguably more important in a modern remote working environment than ever before.",
+        "date": "29/08/2022"
+    }
+]
